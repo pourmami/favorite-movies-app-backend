@@ -4,7 +4,7 @@ const shopRoutes = express.Router()
 const adminData = require('./admin')
 
 shopRoutes.get('/', (req, res, next) => {
-    res.render('shop', {prods: adminData.products, docTitle: "My Shop"})
+    res.render('shop', {prods: adminData.products, pageTitle: 'Shop', path: '/'})
 })
 
 module.exports = shopRoutes

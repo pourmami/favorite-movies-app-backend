@@ -4,9 +4,9 @@ const adminRoutes = express.Router()
 const products = []
 
 adminRoutes.get('/add-product', (req, res, next) => {
-    res.sendFile(path.join(__dirname,'..','views','add-product.html'))
+    res.render('add-product', { pageTitle: 'Add Product', path: '/admin/add-product' });
 })
-adminRoutes.post('/product', (req, res, next) => {
+adminRoutes.post('/add-product', (req, res, next) => {
     products.push({ title: req.body.title })
     res.redirect('/')
 })
