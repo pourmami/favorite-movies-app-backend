@@ -11,12 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911e5bf9-b23d-4cd3-bd97-87c31a6d35f0" name="Default Changelist" comment="Dynamic Routes &amp; Advanced Models">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/database.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +126,13 @@
       <workItem from="1657598620172" duration="27000" />
       <workItem from="1659266627044" duration="818000" />
       <workItem from="1659275431355" duration="3581000" />
+      <workItem from="1659336268447" duration="40000" />
+      <workItem from="1659353159660" duration="265000" />
+      <workItem from="1659539010662" duration="2190000" />
+      <workItem from="1661753290438" duration="6764000" />
+      <workItem from="1661776869709" duration="8000" />
+      <workItem from="1661852269374" duration="3517000" />
+      <workItem from="1661930316512" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="create a new Node.js project and implement some basic routes with Express.js">
       <created>1656483260632</created>
