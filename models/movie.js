@@ -2,7 +2,7 @@ const Sequelize = require('sequelize')
 
 const sequelize = require('../util/database')
 
-const User = sequelize.define('user', {
+const Movie = sequelize.define('movie', {
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
@@ -10,9 +10,10 @@ const User = sequelize.define('user', {
         primaryKey: true
     },
     name: Sequelize.STRING,
-    email: Sequelize.STRING,
-    password: Sequelize.STRING,
-    role: Sequelize.STRING,
+    image: Sequelize.STRING,
+    genre: Sequelize.STRING,
+    description: Sequelize.TEXT,
+    userId: Sequelize.INTEGER,
 })
 
-module.exports = User
+module.exports = Movie
