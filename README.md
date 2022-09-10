@@ -1,3 +1,3 @@
-# learning-nodejs
+# My favorite movies
 Hi :) <br>
-I'm learning NodeJs right now and I decided to create a repository for myself and track my progress in this journey.
+this is a node js backend application that provides many apis to use in any other applications wich they need a backend to manage their online database
