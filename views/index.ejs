@@ -122,6 +122,92 @@
                     </li>
                 </ul>
             </li>
+            <br>
+            <br>
+            <li>
+                <b>Insert Movie</b>
+                <ul>
+                    <li>
+                        <b>url => </b>/insertMovie
+                    </li>
+                    <li>
+                        <b>params :</b>
+                        <ul>
+                            <li>
+                                name [string]
+                            </li>
+                            <li>
+                                genre [string]
+                            </li>
+                            <li>
+                                description [text]
+                            </li>
+                            <li>
+                                userId [integer]
+                            </li>
+                            <li>
+                                image [file]
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>returns :</b>
+                        <ul>
+                            <li>
+                                <b>on Success =></b>
+                                {
+                                    "status": true,
+                                    "message": "movie created succesfuly!"
+                                }
+                            </li>
+                            <li>
+                                <b>on Fail =></b>
+                                {
+                                    status: false,
+                                    message: "There is a problem!"
+                                }
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <br>
+            <li>
+                <b>Get Movie by User ID</b>
+                <ul>
+                    <li>
+                        <b>url => </b>/getMovie/{userId} <b> [GET]</b>
+                    </li>
+                    <li>
+                        <b>params :</b>
+                        <ul>
+                            <li>
+                                none
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>returns :</b>
+                        <ul>
+                            <li>
+                                <b>on Success =></b>
+                                {
+                                    status: true,
+                                    movies: an array of user movies
+                                }
+                            </li>
+                            <li>
+                                <b>on Fail =></b>
+                                {
+                                    status: false,
+                                    message: "There is a problem!"
+                                }
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </main>
 <%- include('includes/end.ejs') %>
