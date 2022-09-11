@@ -19,5 +19,6 @@ router.post('/login', userController.loginUser);
 router.post('/geUser', userController.getUser);
 
 router.post('/insertMovie', movieController.insertMovie);
+router.get('/getMovie/:userId', movieController.getUserMovies);
 
 module.exports = router;
